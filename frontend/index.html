@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SMS Spam Classifier</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>SMS Spam Classifier</h1>
+    <p>Enter an SMS message and click Predict.</p>
+
+    <form id="predict-form">
+      <textarea id="text" placeholder="Type your SMS here..." rows="6"></textarea>
+      <button id="submit-btn" type="submit">Predict</button>
+    </form>
+
+    <div id="result" class="result hidden"></div>
+    <div id="error" class="error hidden"></div>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>
